@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(225, 191, 147);
+}
+.container{
+    
+    background-color: antiquewhite;
+    font-family: 'Roboto', sans-serif;
+    background-position: right;
+}
+.titulo1{
+    color: rgb(131, 70, 8);
+}
+.titulo3{
+    color: orange;
+}
+.icono{
+    height: 15px;
+    width: 15px;
+}
+#lista-icono{
+    list-style: none;
+}
+section{
+    flex: 5% 5% 5% 5%;
+    
+}
+#foto-perfil{
+    float: left;
+    margin: 2% 5% 5% 5%;
+}
+a:link{
+    text-decoration: none;
+    text-decoration-color: black;  
+    display: inline-block;
+    text-align: center;
+    border-radius: 5px;
+    padding: 14px 25px;
+}
+a:hover, a:active {
+    background-color: rgb(233, 143, 9);
+    
+}
+nav ul {
+    display: flex; 
+    justify-content: center;
+    list-style: none;
+}
+li{
+    margin: 0.75rem;
+}
+.titulo4{
+    padding-left: 2%;
+}
+
