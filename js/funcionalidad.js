@@ -1,10 +1,3 @@
-var myModal = document.getElementById('myModal')
-var myInput = document.getElementById('myInput')
-
-myModal.addEventListener('shown.bs.modal', function () {
-  myInput.focus()
-})
-
 const coleccion=document.getElementsByClassName('titulo3');
 for(let i =0;i<coleccion.length ;i++){
     coleccion[i].addEventListener('mouseover', function(){
